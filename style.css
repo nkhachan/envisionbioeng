@@ -1,0 +1,32 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+#topbar{
+  background-color: white;
+  position:fixed;
+  width:100%;
+  height: 100px;
+}
+
+#topbar-items{
+  position:absolute;
+	margin-left: 70%;
+	top:30px;
+}
+
+a {
+  color: #566573;
+  margin-left: 40px
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#iconimg {
+  margin-top:10px;
+  margin-left:10px;
+  width:5%;
+  height:5%;
+}

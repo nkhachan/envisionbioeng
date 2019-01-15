@@ -24,6 +24,10 @@ a:hover {
   font-weight: bold;
 }
 
+.active {
+  font-weight: bold;
+}
+
 #iconimg {
   margin-top:10px;
   margin-left:10px;

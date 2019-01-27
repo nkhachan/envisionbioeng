@@ -1,22 +1,21 @@
 body{
-  font-family: 'Work Sans', sans-serif;
+font-family: 'Major Mono Display', serif;
 }
 
 #topbar{
   background-color: white;
-  position:fixed;
   width:100%;
   height: 100px;
 }
 
 #topbar-items{
-  position:absolute;
-	margin-left: 50%;
-	top:30px;
+    position:absolute;
+	margin-left: 40%;
+	top:50px;
 }
 
 a {
-  color: #566573;
+  color: #2C3E50;
   margin-left: 40px
 }
 
@@ -29,8 +28,46 @@ a:hover {
 }
 
 #iconimg {
-  margin-top:10px;
+  margin-top:20px;
   margin-left:10px;
-  width:5%;
-  height:5%;
+  width:4%;
+  height:4%;
+}
+
+.mainimg {
+    margin-top: 5%;
+    width: 55%;
+}
+
+.info {
+     padding: 5%;
+     font-size: 2em;
+}
+
+.infotitle {
+    font-family: 'Major Mono Display', serif;
+    font-size: 2.5em;
+}
+
+.infominititle {
+    font-size: 1.5em;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+.list {
+    margin-left: 7%;
+}
+
+.resourcesinfo {
+     padding: 5%;
+     font-size: 2em;
+
 }

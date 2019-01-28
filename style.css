@@ -41,7 +41,7 @@ a:hover {
 
 .info {
      padding: 5%;
-     font-size: 2em;
+     font-size: 1.5em;
 }
 
 .infotitle {
@@ -50,12 +50,21 @@ a:hover {
 }
 
 .infominititle {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 .field {
     display: grid;
     grid-template-columns: 10% auto;
+}
+
+.material {
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+.stuff {
+    font_size: 1.65em;
 }
 
 ul{

@@ -39,13 +39,69 @@
         <p>
           <b>intramuscular eMG</b>: this detects signals using needle(s) inserted into the muscle.
         </p>
-                    <p class ="infominititle">Filtering</p>
+
+        <p class ="infominititle">Filtering</p>
+        <p>As you can imagine, the signals that eMGs work with are incredibly small, and as a result they are susceptible
+          to a great deal of noise, or error. in order to reduce some of the error in our signals, we will filter our signal.
+          the first set of filters that we will deal with filter out noises based on frequency.</p>
+
+        <p>
+          <b>High pass</b>: passes frequencies above some cutoff frequency
+        </p>
+        <p>
+          <b>Low pass</b>: passes frequencies below some cutoff frequency
+        </p>
+        <p>
+          <b>boxcar</b>: this filter is a combination of the low pass filter above and some smoothing, or averaging to make the signal less erratic.
+            Visually it looks something like the following :
+        </p>
+
+        <center>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lissage_sg3_anim.gif/400px-Lissage_sg3_anim.gif">
+        </center>
+
       </div>
 
+      <p class ="infominititle">MAteRiAls</p>
+
+
+      <div class="material">
+        <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/B300/ARDUINO_UNO_A06.png" width="400vh">
+        <div>
+          <p style = "font-size: 1.5em;">Arduino uno Microcontroller</p>
+          <p>this piece of hardware does a portion of the filtering, and passes information to the Arduino microcontroller</p>
+        </div>
+      </div>
+
+      <div class="material">
+        <img src="https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PRO/images/SHIELD-EKG-EMG-PRO.jpg" width="400vh">
+        <div>
+          <p style = "font-size: 1.5em;">electrodes</p>
+          <p>this piece of hardware does a portion of the filtering, and passes information to the Arduino microcontroller</p>
+        </div>
+      </div>
+
+      <div class="material">
+        <img src="https://cdn10.bigcommerce.com/s-p10g1rn/products/917/images/1244/red-dot-foam-electrode-2570__61896.1428510774.1280.1280.jpg?c=2" width="300vh">
+        <div>
+          <p style = "font-size: 1.5em;">electrode pads</p>
+          <p>this piece of hardware does a portion of the filtering, and passes information to the Arduino microcontroller</p>
+        </div>
+      </div>
+
+      <div class="material">
+        <img src="https://mikroelectron.com/ProImg/X4/b71b69e2-1f35-4f5c-8327-2402ea788fd1.jpg" width="400vh">
+        <div>
+          <p style = "font-size: 1.5em;">olimex eMG shield</p>
+          <p>this piece of hardware does a portion of the filtering, and passes information to the Arduino microcontroller</p>
+        </div>
+      </div>
 
       <div id="instructions">
             <p class ="infominititle">instRuctions</p>
       </div>
+
+
     </div>
 </body>
 </html>

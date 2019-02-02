@@ -84,3 +84,9 @@ ul{
 .step {
     font-size: 1.3em;
 }
+
+.instimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
